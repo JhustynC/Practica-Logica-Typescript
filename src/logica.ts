@@ -20,7 +20,7 @@ el árbol que debemos devolver es:
 
 //Resolucion
 
-const createChristmasTree = (ornaments: string, height: number): string => {
+export const createChristmasTree = (ornaments: string, height: number): string => {
   let christmasTree: string = "";
   let stringIndex: number = 0;
 
@@ -41,4 +41,4 @@ const createChristmasTree = (ornaments: string, height: number): string => {
   return christmasTree;
 };
 
-console.log(createChristmasTree("123", 5));
+// console.log(createChristmasTree("123", 5));
